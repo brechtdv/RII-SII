@@ -4,6 +4,6 @@ Code for "Why the Slope and Relative Indices of Inequality are inappropriate to 
 ##### Contents
 
 * **Graphical definition of RII/SII**
-  * Fig1.R
-  * [Fig1.tiff](Fig1.tiff)
+  * [Fig1.md](Fig1.md)
+  * [Fig1.R](Fig1.R)
 
