@@ -1,11 +1,9 @@
-#' ---
-#' title: Relative and Slope Index of Inequality
-#' subtitle: Figure 1
-#' output:
-#'   github_document:
-#'     html_preview: false
-#' ---
+Relative and Slope Index of Inequality
+================
+bdevleesschauwer
+Mon Apr 01 16:29:08 2019
 
+``` r
 ### RII/SII plots
 
 ## RII/SII PLOT / 4 SE groups
@@ -54,8 +52,9 @@ function(r4, p4) {
 
 
 ## Figure 1 (3*2 plot)
-#+ fig.width = 7.5, fig.height = 5
+```
 
+``` r
 par(mfrow = c(2, 3))
 
 # define mortality rates
@@ -71,6 +70,11 @@ cbind(
   c(0.25, 0.20, 0.25, 0.30),
   c(0.25, 0.10, 0.25, 0.40))
 colSums(p4)
+```
+
+    ## [1] 1 1 1 1
+
+``` r
 rii_plot4(r4, p4[, 1])
 text("A", x = -.2, y = 1300, cex = 2, xpd = NA)
 rii_plot4(r4, p4[, 2])
@@ -86,9 +90,19 @@ cbind(
   c(0.20, 0.25, 0.25, 0.30),
   c(0.10, 0.25, 0.25, 0.40))
 colSums(p4)
+```
+
+    ## [1] 1 1 1 1
+
+``` r
 rii_plot4(r4, p4[, 1])
 text("B", x = -.2, y = 1300, cex = 2, xpd = NA)
 rii_plot4(r4, p4[, 2])
 rii_plot4(r4, p4[, 3])
+```
 
+![](Fig1_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+``` r
 ##rmarkdown::render("Fig1.R")
+```
