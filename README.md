@@ -4,7 +4,7 @@ Code for "Why the Slope and Relative Indices of Inequality are inappropriate to 
 ##### Contents
 
 * **SAS code for simulations**
-  * [1.simulations_for Pub.sas](1.simulations_for Pub.sas)
+  * [simulations.sas](simulations.sas)
 
 * **Graphical definition of RII/SII**
   * [Fig1.R](Fig1.R)
